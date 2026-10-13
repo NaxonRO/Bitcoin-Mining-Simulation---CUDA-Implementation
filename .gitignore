@@ -1,0 +1,11 @@
+# Build artifacts
+*.o
+cpu_miner/miner
+gpu_miner/miner
+
+# Run output
+*/output/*
+!*/output/.gitkeep
+slurm-*.out
+slurm-*.err
+*.ncu-rep
